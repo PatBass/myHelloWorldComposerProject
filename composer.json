@@ -1,0 +1,20 @@
+{
+    "name": "patrickbassoukissa/hello-world-test-project",
+    "description": "My first Composer project",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Patrick BASSOUKISSA",
+            "email": "patrickbassoukissa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src"
+        }
+    }
+}
